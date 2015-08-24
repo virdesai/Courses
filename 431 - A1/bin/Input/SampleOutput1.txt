@@ -1,0 +1,43 @@
+GET /Input//file1.txt HTTP/1.0
+Method = GET
+Request-URL = /Input//file1.txt
+HTTP-Version = HTTP/1.0
+abcdefghijklmnopqrstuvwxyz
+12345678910
+
+this is the end of file (actually followed by a blank line).
+
+
+GET   		 /Input/file1.abc HTTP/1.0    
+Method = GET
+Request-URL = /Input/file1.abc
+HTTP-Version = HTTP/1.0
+501 Not Implemented: /Input/file1.abc
+
+GET Input/file1.txt HTTP/1.0
+ERROR -- Invalid Absolute-Path token.
+
+get /Input/file1.txt HTTP/1.0
+ERROR -- Invalid Method token.
+
+
+ERROR -- Invalid Method token.
+
+GET /Input/file1 txt HTTP/1.0
+ERROR -- Invalid HTTP-Version token.
+
+GET		/Input/file2.txt	HTTP/9.9		
+Method = GET
+Request-URL = /Input/file2.txt
+HTTP-Version = HTTP/9.9
+404 Not Found: /Input/file2.txt
+
+GET /Input/file1.txt HTTP/1.1 abc
+ERROR -- Spurious token before CRLF.
+
+GET /Input/file2.txt HTTP/1.1
+Method = GET
+Request-URL = /Input/file2.txt
+HTTP-Version = HTTP/1.1
+404 Not Found: /Input/file2.txt
+
