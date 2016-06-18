@@ -1,0 +1,12 @@
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+time=                   0 A=00000000 B=00000000 Cin=0 : Sum=00000000 Cout=0
+time=                 110 A=00000001 B=00000001 Cin=0 : Sum=00000010 Cout=0
+time=                 120 A=00000001 B=00000001 Cin=1 : Sum=00000011 Cout=0
+time=                 130 A=00000010 B=00000011 Cin=0 : Sum=00000101 Cout=0
+time=                 140 A=10000001 B=10000001 Cin=0 : Sum=00000010 Cout=1
+time=                 150 A=00011001 B=00110001 Cin=0 : Sum=01001010 Cout=0
+time=                 160 A=00000011 B=00000011 Cin=1 : Sum=00000111 Cout=0
+time=                 170 A=11111111 B=00000001 Cin=0 : Sum=00000000 Cout=1
+time=                 180 A=11111111 B=00000000 Cin=1 : Sum=00000000 Cout=1
+time=                 190 A=11111111 B=11111111 Cin=0 : Sum=11111110 Cout=1

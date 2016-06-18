@@ -1,0 +1,1 @@
+-wto "04264b19e6ce4ed4acd1a1f9a03b478f" --debug "typical" --relax --mt "8" -L "xil_defaultlib" -L "unisims_ver" -L "unimacro_ver" -L "secureip" --snapshot "vgatimer_10x4_test_behav" "xil_defaultlib.vgatimer_10x4_test" "xil_defaultlib.glbl" -log "elaborate.log" 

@@ -1,0 +1,7 @@
+Running: xsim.dir/halfadder_test_behav/xsimk -simmode gui -wdb halfadder_test_behav.wdb -simrunnum 0 -socket 52438
+Design successfully loaded
+Design Loading Memory Usage: 94464 KB (Peak: 94484 KB)
+Design Loading CPU Usage: 10 ms
+Simulation completed
+Simulation Memory Usage: 233736 KB (Peak: 299272 KB)
+Simulation CPU Usage: 20 ms

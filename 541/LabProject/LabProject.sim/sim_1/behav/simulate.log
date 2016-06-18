@@ -1,0 +1,5 @@
+Vivado Simulator 2015.4
+Time resolution is 1 ps
+ERROR: Illegal hex digit '¿' found in data of file "regd_init.txt"
+ERROR: Illegal hex digit '¿' found in data of file "dmem_init.txt"
+$finish called at time : 50 ns : File "/home/vir/LabProject/LabProject.srcs/sim_1/new/project_screentest.sv" Line 113

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2015.4 (64-bit)
+# SW Build 1412921 on Wed Nov 18 09:44:32 MST 2015
+# IP Build 1412160 on Tue Nov 17 13:47:24 MST 2015
+# Start of session at: Wed Mar  9 23:18:20 2016
+# Process ID: 7194
+# Current directory: /home/vir/Lab7/Lab7.runs/impl_1
+# Command line: vivado -log stopwatch.vdi -applog -messageDb vivado.pb -mode batch -source stopwatch.tcl -notrace
+# Log file: /home/vir/Lab7/Lab7.runs/impl_1/stopwatch.vdi
+# Journal file: /home/vir/Lab7/Lab7.runs/impl_1/vivado.jou
+#-----------------------------------------------------------
+source stopwatch.tcl -notrace

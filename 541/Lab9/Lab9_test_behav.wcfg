@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="Lab9_test_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="Lab9_test" />
+            <top_module name="glbl" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0fs"></ZoomStartTime>
+      <ZoomEndTime time="4289109fs"></ZoomEndTime>
+      <Cursor1Time time="0fs"></Cursor1Time>
+   </zoom_setting>
+   <WVObjectSize size="19" />
+   <wvobject db_ref_id="1" type="logic" fp_name="/Lab9_test/clock">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/Lab9_test/WR">
+      <obj_property name="ElementShortName">WR</obj_property>
+      <obj_property name="ObjectShortName">WR</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Lab9_test/RA1">
+      <obj_property name="ElementShortName">RA1[4:0]</obj_property>
+      <obj_property name="ObjectShortName">RA1[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Lab9_test/RA2">
+      <obj_property name="ElementShortName">RA2[4:0]</obj_property>
+      <obj_property name="ObjectShortName">RA2[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Lab9_test/WA">
+      <obj_property name="ElementShortName">WA[4:0]</obj_property>
+      <obj_property name="ObjectShortName">WA[4:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Lab9_test/ALUFN">
+      <obj_property name="ElementShortName">ALUFN[4:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUFN[4:0]</obj_property>
+      <obj_property name="Radix">BINARYRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Lab9_test/WD">
+      <obj_property name="ElementShortName">WD[31:0]</obj_property>
+      <obj_property name="ObjectShortName">WD[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Lab9_test/RD1">
+      <obj_property name="ElementShortName">RD1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RD1[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Lab9_test/RD2">
+      <obj_property name="ElementShortName">RD2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">RD2[31:0]</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Lab9_test/ALUResult">
+      <obj_property name="ElementShortName">ALUResult[31:0]</obj_property>
+      <obj_property name="ObjectShortName">ALUResult[31:0]</obj_property>
+      <obj_property name="Radix">SIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/Lab9_test/FlagZ">
+      <obj_property name="ElementShortName">FlagZ</obj_property>
+      <obj_property name="ObjectShortName">FlagZ</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/Lab9_test/ERROR">
+      <obj_property name="ElementShortName">ERROR</obj_property>
+      <obj_property name="ObjectShortName">ERROR</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/Lab9_test/ERROR_RD1">
+      <obj_property name="ElementShortName">ERROR_RD1</obj_property>
+      <obj_property name="ObjectShortName">ERROR_RD1</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/Lab9_test/ERROR_RD2">
+      <obj_property name="ElementShortName">ERROR_RD2</obj_property>
+      <obj_property name="ObjectShortName">ERROR_RD2</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/Lab9_test/ERROR_ALUResult">
+      <obj_property name="ElementShortName">ERROR_ALUResult</obj_property>
+      <obj_property name="ObjectShortName">ERROR_ALUResult</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="logic" fp_name="/Lab9_test/ERROR_FlagZ">
+      <obj_property name="ElementShortName">ERROR_FlagZ</obj_property>
+      <obj_property name="ObjectShortName">ERROR_FlagZ</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Lab9_test/Abits">
+      <obj_property name="ElementShortName">Abits[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Abits[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Lab9_test/Dbits">
+      <obj_property name="ElementShortName">Dbits[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Dbits[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+   <wvobject db_ref_id="1" type="array" fp_name="/Lab9_test/Nloc">
+      <obj_property name="ElementShortName">Nloc[31:0]</obj_property>
+      <obj_property name="ObjectShortName">Nloc[31:0]</obj_property>
+      <obj_property name="Radix">UNSIGNEDDECRADIX</obj_property>
+   </wvobject>
+</wave_config>

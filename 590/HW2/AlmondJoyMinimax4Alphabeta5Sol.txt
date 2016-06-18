@@ -1,0 +1,74 @@
+On File: AlmondJoy.txt with depth limit : 4 on algorithm: Minimax for Blue/Player 1 and depth limit: 5 on algorithm: Alphabeta for Green/Player2
+
+Blue: drop F6, Green: drop A1 then 
+Blue: drop E6, Green: drop B1 then 
+Blue: drop D6, Green: drop C1 then 
+Blue: drop C6, Green: drop D1 then 
+Blue: drop B6, Green: drop E1 then 
+Blue: drop A6, Green: drop F1 then 
+Blue: drop F5, Green: drop A2 then 
+Blue: drop E5, Green: drop B2 then 
+Blue: drop D5, Green: drop C2 then 
+Blue: drop C5, Green: drop D2 then 
+Blue: drop B5, Green: drop E2 then 
+Blue: drop A5, Green: drop F2 then 
+Blue: drop F4, Green: drop A3 then 
+Blue: drop E4, Green: drop B3 then 
+Blue: drop D4, Green: drop C3 then 
+Blue: drop C4, Green: drop D3 then 
+Blue: drop B4, Green: drop E3 then 
+Blue: drop A4, Green: drop F3
+
+Final State:
+A1: Green/Player 2
+B1: Green/Player 2
+C1: Green/Player 2
+D1: Green/Player 2
+E1: Green/Player 2
+F1: Green/Player 2
+A2: Green/Player 2
+B2: Green/Player 2
+C2: Green/Player 2
+D2: Green/Player 2
+E2: Green/Player 2
+F2: Green/Player 2
+A3: Blue/Player 1
+B3: Blue/Player 1
+C3: Green/Player 2
+D3: Green/Player 2
+E3: Green/Player 2
+F3: Green/Player 2
+A4: Blue/Player 1
+B4: Blue/Player 1
+C4: Blue/Player 1
+D4: Green/Player 2
+E4: Green/Player 2
+F4: Green/Player 2
+A5: Blue/Player 1
+B5: Blue/Player 1
+C5: Blue/Player 1
+D5: Blue/Player 1
+E5: Blue/Player 1
+F5: Blue/Player 1
+A6: Blue/Player 1
+B6: Blue/Player 1
+C6: Blue/Player 1
+D6: Blue/Player 1
+E6: Blue/Player 1
+F6: Blue/Player 1
+
+G	G	G	G	G	G	
+G	G	G	G	G	G	
+B	B	G	G	G	G	
+B	B	B	G	G	G	
+B	B	B	B	B	B	
+B	B	B	B	B	B	
+
+Player 1 Total Score: 17
+Player 2 Total Score: 19
+Total Nodes Expanded by Player 1: 5604698
+Total Nodes Expanded by Player 2: 172117
+Avg Nodes Expanded by Player 1 per move: 311372.111111
+Avg Nodes Expanded by Player 2 per move: 9562.05555556
+Avg Time Spent by Player 1 per move: 11.8817777766
+Avg Time Spent by Player 2 per move: 0.416055560112

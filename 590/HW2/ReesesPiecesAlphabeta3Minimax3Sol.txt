@@ -1,0 +1,74 @@
+On File: ReesesPieces.txt with depth limit : 3 on algorithm: Alphabeta for Blue/Player 1 and depth limit: 3 on algorithm: Minimax for Green/Player2
+
+Blue: drop A1, Green: drop F6 then 
+Blue: drop B1, Green: drop E6 then 
+Blue: drop C1, Green: drop D6 then 
+Blue: drop D1, Green: drop C6 then 
+Blue: drop E1, Green: drop B6 then 
+Blue: drop F1, Green: drop A6 then 
+Blue: drop A2, Green: drop F5 then 
+Blue: drop B2, Green: drop E5 then 
+Blue: drop C2, Green: drop D5 then 
+Blue: drop D2, Green: drop C5 then 
+Blue: drop E2, Green: drop B5 then 
+Blue: drop F2, Green: drop A5 then 
+Blue: drop A3, Green: drop F4 then 
+Blue: drop B3, Green: drop E4 then 
+Blue: drop C3, Green: drop D4 then 
+Blue: drop D3, Green: drop C4 then 
+Blue: drop E3, Green: drop B4 then 
+Blue: drop F3, Green: drop A4
+
+Final State:
+A1: Blue/Player 1
+B1: Blue/Player 1
+C1: Blue/Player 1
+D1: Blue/Player 1
+E1: Blue/Player 1
+F1: Blue/Player 1
+A2: Blue/Player 1
+B2: Blue/Player 1
+C2: Blue/Player 1
+D2: Blue/Player 1
+E2: Blue/Player 1
+F2: Blue/Player 1
+A3: Green/Player 2
+B3: Green/Player 2
+C3: Green/Player 2
+D3: Blue/Player 1
+E3: Blue/Player 1
+F3: Blue/Player 1
+A4: Green/Player 2
+B4: Green/Player 2
+C4: Green/Player 2
+D4: Green/Player 2
+E4: Blue/Player 1
+F4: Blue/Player 1
+A5: Green/Player 2
+B5: Green/Player 2
+C5: Green/Player 2
+D5: Green/Player 2
+E5: Green/Player 2
+F5: Green/Player 2
+A6: Green/Player 2
+B6: Green/Player 2
+C6: Green/Player 2
+D6: Green/Player 2
+E6: Green/Player 2
+F6: Green/Player 2
+
+B	B	B	B	B	B	
+B	B	B	B	B	B	
+G	G	G	B	B	B	
+G	G	G	G	B	B	
+G	G	G	G	G	G	
+G	G	G	G	G	G	
+
+Player 1 Total Score: 556
+Player 2 Total Score: 1097
+Total Nodes Expanded by Player 1: 8058
+Total Nodes Expanded by Player 2: 186969
+Avg Nodes Expanded by Player 1 per move: 447.666666667
+Avg Nodes Expanded by Player 2 per move: 10387.1666667
+Avg Time Spent by Player 1 per move: 0.017777774069
+Avg Time Spent by Player 2 per move: 0.400500006146

@@ -1,0 +1,74 @@
+On File: Bit-O-Honey.txt with depth limit : 3 on algorithm: Minimax for Blue/Player 1 and depth limit: 3 on algorithm: Minimax for Green/Player2
+
+Blue: drop F6, Green: drop E6 then 
+Blue: drop D6, Green: drop C6 then 
+Blue: drop B6, Green: drop A6 then 
+Blue: drop F5, Green: drop E5 then 
+Blue: drop D5, Green: drop C5 then 
+Blue: drop B5, Green: drop A5 then 
+Blue: drop F4, Green: drop E4 then 
+Blue: drop D4, Green: drop C4 then 
+Blue: drop B4, Green: drop A4 then 
+Blue: drop F3, Green: drop E3 then 
+Blue: drop D3, Green: drop C3 then 
+Blue: drop B3, Green: drop A3 then 
+Blue: drop F2, Green: drop E2 then 
+Blue: drop D2, Green: drop C2 then 
+Blue: drop B2, Green: drop A2 then 
+Blue: drop F1, Green: drop E1 then 
+Blue: drop D1, Green: drop C1 then 
+Blue: drop B1, Green: drop A1
+
+Final State:
+A1: Green/Player 2
+B1: Green/Player 2
+C1: Green/Player 2
+D1: Green/Player 2
+E1: Green/Player 2
+F1: Green/Player 2
+A2: Green/Player 2
+B2: Green/Player 2
+C2: Green/Player 2
+D2: Green/Player 2
+E2: Green/Player 2
+F2: Blue/Player 1
+A3: Green/Player 2
+B3: Green/Player 2
+C3: Green/Player 2
+D3: Green/Player 2
+E3: Blue/Player 1
+F3: Green/Player 2
+A4: Green/Player 2
+B4: Green/Player 2
+C4: Green/Player 2
+D4: Blue/Player 1
+E4: Green/Player 2
+F4: Blue/Player 1
+A5: Green/Player 2
+B5: Green/Player 2
+C5: Blue/Player 1
+D5: Green/Player 2
+E5: Blue/Player 1
+F5: Green/Player 2
+A6: Green/Player 2
+B6: Blue/Player 1
+C6: Green/Player 2
+D6: Blue/Player 1
+E6: Green/Player 2
+F6: Blue/Player 1
+
+G	G	G	G	G	G	
+G	G	G	G	G	B	
+G	G	G	G	B	G	
+G	G	G	B	G	B	
+G	G	B	G	B	G	
+G	B	G	B	G	B	
+
+Player 1 Total Score: 150
+Player 2 Total Score: 228
+Total Nodes Expanded by Player 1: 209304
+Total Nodes Expanded by Player 2: 186969
+Avg Nodes Expanded by Player 1 per move: 11628.0
+Avg Nodes Expanded by Player 2 per move: 10387.1666667
+Avg Time Spent by Player 1 per move: 0.445722195837
+Avg Time Spent by Player 2 per move: 0.405222243733
