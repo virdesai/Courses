@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="400dp"
+    android:orientation="vertical"
+    tools:context="vircomp590.com.a2comp590.SensorChooser"
+    android:id="@+id/sensor_layout">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Accelerometer"
+            android:id="@+id/accelerometer" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:paddingLeft="5dp"
+            android:layout_weight="7"
+            android:layout_height="match_parent"
+            android:id="@+id/alayout" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:layout_weight="1"
+                android:text="Accelerometer"
+                android:id="@+id/astatus" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="5dp"
+                android:text="New Text"
+                android:id="@+id/ainfo" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Light"
+            android:id="@+id/light" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_weight="2"
+            android:paddingLeft="5dp"
+            android:layout_height="match_parent"
+            android:id="@+id/llayout" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:layout_weight="1"
+                android:text="Light"
+                android:id="@+id/lstatus" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:layout_weight="1"
+                android:text="New Text"
+                android:id="@+id/linfo" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="2"
+            android:text="Gyroscope"
+            android:id="@+id/gyroscope" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_weight="5"
+            android:paddingLeft="5dp"
+            android:layout_height="match_parent"
+            android:id="@+id/glayout" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:layout_weight="1"
+                android:text="Gyroscope"
+                android:id="@+id/gstatus" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:paddingLeft="5dp"
+                android:text="New Text"
+                android:id="@+id/ginfo" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Magnetometer"
+            android:id="@+id/magnetometer" />
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_weight="7"
+            android:paddingLeft="5dp"
+            android:layout_height="match_parent"
+            android:id="@+id/mlayout" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:layout_weight="1"
+                android:text="Magnetometer"
+                android:id="@+id/mstatus" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:layout_weight="1"
+                android:text="New Text"
+                android:id="@+id/minfo" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

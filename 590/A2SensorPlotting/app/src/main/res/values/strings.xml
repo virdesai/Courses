@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">A2Comp590</string>
+    <string name="accelerometer">Accelerometer</string>
+    <string name="barometer">Barometer</string>
+    <string name="gyroscope">Gyroscope</string>
+    <string name="magnetometer">Magnetometer</string>
+    <string name="status">Status: </string>
+    <string name="info">Info: </string>
+</resources>

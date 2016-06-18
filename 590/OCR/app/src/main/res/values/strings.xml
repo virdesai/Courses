@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">OCR app by: Joel and Vir</string>
+    <string name="button_text">Take Picture for OCR</string>
+    <string name="text_hint">OCRed text will appear here</string>
+</resources>

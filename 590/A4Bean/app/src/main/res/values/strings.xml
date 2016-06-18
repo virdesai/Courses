@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">A4Bean Vir</string>
+    <string name="standing">Standing</string>
+    <string name="sitting">Sitting</string>
+    <string name="walking">Walking</string>
+    <string name="running">Running</string>
+    <string name="upstairs">Upstairs</string>
+    <string name="downstairs">Downstairs</string>
+    <string name="waist">Waist</string>
+    <string name="wrist">Wrist</string>
+    <string name="shoe">Shoe</string>
+    <string name="start">Start</string>
+    <string name="stop">Stop</string>
+    <string name="save">Save</string>
+</resources>
